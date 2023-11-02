@@ -12,10 +12,10 @@ function App() {
     <>
     <BrowserRouter>
         <Routes>
-          <Route path='/study-react' element={<HomePage/>}/>
-          <Route path='/post' element={<PostPage/>}/>
-          <Route path='/Products' element={<ProductPage/>}/>
-          <Route path='/profile/:myName' element={<ProfilePage/>}/>
+          <Route path='/study-react/' element={<HomePage/>}/>
+          <Route path='/study-react/post' element={<PostPage/>}/>
+          <Route path='/study-react/Products' element={<ProductPage/>}/>
+          <Route path='/study-react/profile/:myName' element={<ProfilePage/>}/>
           <Route path='*' element={<NotFoundPage/>}/>
 
         </Routes>
