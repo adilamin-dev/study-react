@@ -12,7 +12,7 @@ function App() {
     <>
     <BrowserRouter>
         <Routes>
-          <Route path='/' element={<HomePage/>}/>
+          <Route path='/study-react' element={<HomePage/>}/>
           <Route path='/post' element={<PostPage/>}/>
           <Route path='/Products' element={<ProductPage/>}/>
           <Route path='/profile/:myName' element={<ProfilePage/>}/>
